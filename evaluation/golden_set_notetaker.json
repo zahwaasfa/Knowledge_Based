@@ -1,0 +1,52 @@
+[
+  {
+    "id": "NT-01",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, apa topik utama konsultasi akademisi yang dibahas?",
+    "expected_answer": "Pembahasan masukan akademisi untuk draft pedoman pemanfaatan kecerdasan artifisial di lingkungan Kementerian PPN/Bappenas.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Pembahasan Masukan Akademisi untuk Draft Pedoman Pemanfaatan Kecerdasan Artifisial di Lingkungan Kementerian PPN/Bappenas",
+    "evidence_type": "title"
+  },
+  {
+    "id": "NT-02",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, apa rencana Bappenas yang dibahas dalam kunjungan studi tersebut?",
+    "expected_answer": "Tim Kedeputian Perencanaan Makro Bappenas membahas rencana pengembangan Makrointelligence Hub sebagai repositori pengetahuan terpadu berbasis RAG.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "rencana pengembangan \"Makrointelligence Hub\" sebagai repositori pengetahuan terpadu berbasis RAG",
+    "evidence_type": "summary"
+  },
+  {
+    "id": "NT-03",
+    "question": "Dalam sesi sharing knowledge tentang pengelolaan dan pengembangan dashboard PMP pada 8 September 2026, informasi apa yang diminta untuk mendukung penyusunan dashboard?",
+    "expected_answer": "Peserta meminta informasi mengenai data-data yang sudah terdeteksi metadatanya agar dapat digunakan dalam penyusunan dashboard.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "mohon dapat diinfokan mengenai data-data yang sudah dideteksi metadata",
+    "evidence_type": "transcript"
+  },
+  {
+    "id": "NT-04",
+    "question": "Dalam rapat lanjutan pekerjaan konsultan perencanaan dan pengawasan AI Bappenas pada 8 Oktober 2026, mekanisme apa yang menjadi pokok pembahasan koordinasi teknis?",
+    "expected_answer": "Mekanisme serah terima hasil pengembangan sistem, termasuk sistem yang dibangun berdasarkan keluaran dalam MoU atau PKS antara Bappenas dan BGN.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "terkait dengan bagaimana mekanisme serah terima sistem yang sudah kita bangun berdasarkan output yang emang diamanatkan di dalam mou ataupun pks",
+    "evidence_type": "transcript"
+  },
+  {
+    "id": "NT-05",
+    "question": "Dalam koordinasi teknis serah terima sistem Program Makan Bergizi Gratis antara Bappenas dan BGN pada 15 Juli 2026, apa judul rapat lanjutan yang berlangsung?",
+    "expected_answer": "Rapat Lanjutan Pembahasan Pekerjaan Konsultan Perencanaan dan Pengawasan AI Bappenas 2026.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Rapat Lanjutan Pembahasan Pekerjaan Konsultan Perencanaan dan Pengawasan AI Bappenas 2026",
+    "evidence_type": "title"
+  }
+]

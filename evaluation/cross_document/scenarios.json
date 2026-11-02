@@ -1,0 +1,333 @@
+[
+  {
+    "id": "SYN-SD-001",
+    "scenario_category": "single-document",
+    "question": "What objective does the synthetic directive state?",
+    "required_documents": [
+      "SYN-DOC-PLANNING"
+    ],
+    "entities": [
+      "Synthetic Planning Directive"
+    ],
+    "relations": [],
+    "expected_answer": "It aims to improve sample service access.",
+    "expected_evidence": [
+      {
+        "document_id": "SYN-DOC-PLANNING",
+        "quote": "Its objective is to improve sample service access."
+      }
+    ],
+    "expected_citations": [
+      "SYN-DOC-PLANNING"
+    ],
+    "complexity": "low",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-CD-001",
+    "scenario_category": "cross-document",
+    "question": "How does the directive connect to Program Alpha?",
+    "required_documents": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM"
+    ],
+    "entities": [
+      "Synthetic Planning Directive",
+      "Program Alpha"
+    ],
+    "relations": [
+      "directive-guides-program"
+    ],
+    "expected_answer": "The directive guides Program Alpha, which implements it.",
+    "expected_evidence": [
+      {
+        "document_id": "SYN-DOC-PLANNING",
+        "quote": "Synthetic directive guides Program Alpha."
+      },
+      {
+        "document_id": "SYN-DOC-PROGRAM",
+        "quote": "Program Alpha implements the Synthetic Planning Directive."
+      }
+    ],
+    "expected_citations": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM"
+    ],
+    "complexity": "moderate",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-EL-001",
+    "scenario_category": "entity-linking",
+    "question": "Which program implements the named synthetic directive?",
+    "required_documents": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM"
+    ],
+    "entities": [
+      "Synthetic Planning Directive",
+      "Program Alpha"
+    ],
+    "relations": [
+      "same_entity_name_across_documents"
+    ],
+    "expected_answer": "Program Alpha implements the Synthetic Planning Directive.",
+    "expected_evidence": [
+      {
+        "document_id": "SYN-DOC-PLANNING",
+        "quote": "Synthetic directive guides Program Alpha."
+      },
+      {
+        "document_id": "SYN-DOC-PROGRAM",
+        "quote": "Program Alpha implements the Synthetic Planning Directive."
+      }
+    ],
+    "expected_citations": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM"
+    ],
+    "complexity": "moderate",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-RB-001",
+    "scenario_category": "relationship-based",
+    "question": "Which organization delivers Program Alpha?",
+    "required_documents": [
+      "SYN-DOC-PROGRAM",
+      "SYN-DOC-ORG"
+    ],
+    "entities": [
+      "Program Alpha",
+      "Synthetic Organization Beta"
+    ],
+    "relations": [
+      "delivered-by"
+    ],
+    "expected_answer": "Synthetic Organization Beta delivers Program Alpha.",
+    "expected_evidence": [
+      {
+        "document_id": "SYN-DOC-PROGRAM",
+        "quote": "It is delivered by Synthetic Organization Beta."
+      },
+      {
+        "document_id": "SYN-DOC-ORG",
+        "quote": "Synthetic Organization Beta delivers Program Alpha."
+      }
+    ],
+    "expected_citations": [
+      "SYN-DOC-PROGRAM",
+      "SYN-DOC-ORG"
+    ],
+    "complexity": "moderate",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-MH-001",
+    "scenario_category": "multi-hop-reasoning",
+    "question": "Which organization implements the program governed by the directive?",
+    "required_documents": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM",
+      "SYN-DOC-ORG"
+    ],
+    "entities": [
+      "Synthetic Planning Directive",
+      "Program Alpha",
+      "Synthetic Organization Beta"
+    ],
+    "relations": [
+      "guides",
+      "implemented-by",
+      "delivered-by"
+    ],
+    "expected_answer": "Synthetic Organization Beta delivers Program Alpha, which is guided by the directive.",
+    "expected_evidence": [
+      {
+        "document_id": "SYN-DOC-PLANNING",
+        "quote": "Synthetic directive guides Program Alpha."
+      },
+      {
+        "document_id": "SYN-DOC-PROGRAM",
+        "quote": "Program Alpha implements the Synthetic Planning Directive. It is delivered by Synthetic Organization Beta."
+      },
+      {
+        "document_id": "SYN-DOC-ORG",
+        "quote": "Synthetic Organization Beta delivers Program Alpha."
+      }
+    ],
+    "expected_citations": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM",
+      "SYN-DOC-ORG"
+    ],
+    "complexity": "high",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-AG-001",
+    "scenario_category": "aggregation",
+    "question": "What are the synthetic objective and program delivery organization?",
+    "required_documents": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM",
+      "SYN-DOC-ORG"
+    ],
+    "entities": [
+      "Synthetic Planning Directive",
+      "Program Alpha",
+      "Synthetic Organization Beta"
+    ],
+    "relations": [
+      "objective-of",
+      "delivered-by"
+    ],
+    "expected_answer": "The objective is to improve sample service access, and Program Alpha is delivered by Synthetic Organization Beta.",
+    "expected_evidence": [
+      {
+        "document_id": "SYN-DOC-PLANNING",
+        "quote": "Its objective is to improve sample service access."
+      },
+      {
+        "document_id": "SYN-DOC-PROGRAM",
+        "quote": "It is delivered by Synthetic Organization Beta."
+      }
+    ],
+    "expected_citations": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM",
+      "SYN-DOC-ORG"
+    ],
+    "complexity": "moderate",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-CMP-001",
+    "scenario_category": "comparative",
+    "question": "How did the program scope change relative to the directive objective?",
+    "required_documents": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM"
+    ],
+    "entities": [
+      "Synthetic Planning Directive",
+      "Program Alpha"
+    ],
+    "relations": [
+      "objective-compared-to-scope"
+    ],
+    "expected_answer": "The directive states an access objective; the program document says scope expanded to two sample districts in synthetic 2025.",
+    "expected_evidence": [
+      {
+        "document_id": "SYN-DOC-PLANNING",
+        "quote": "Its objective is to improve sample service access."
+      },
+      {
+        "document_id": "SYN-DOC-PROGRAM",
+        "quote": "In synthetic year 2025, the program scope was expanded to two sample districts."
+      }
+    ],
+    "expected_citations": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM"
+    ],
+    "complexity": "moderate",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-TM-001",
+    "scenario_category": "temporal",
+    "question": "What changed by synthetic year 2025 compared with the directive issued in 2024?",
+    "required_documents": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM"
+    ],
+    "entities": [
+      "Synthetic Planning Directive",
+      "Program Alpha"
+    ],
+    "relations": [
+      "issued-before-scope-change"
+    ],
+    "expected_answer": "The directive was issued in 2024; the program scope expanded to two sample districts in 2025.",
+    "expected_evidence": [
+      {
+        "document_id": "SYN-DOC-PLANNING",
+        "quote": "Issued in synthetic year 2024."
+      },
+      {
+        "document_id": "SYN-DOC-PROGRAM",
+        "quote": "In synthetic year 2025, the program scope was expanded to two sample districts."
+      }
+    ],
+    "expected_citations": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM"
+    ],
+    "complexity": "moderate",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-CTX-001",
+    "scenario_category": "context-dependent",
+    "question": "Who reports quarterly to the office named in the program context?",
+    "required_documents": [
+      "SYN-DOC-PROGRAM",
+      "SYN-DOC-ORG"
+    ],
+    "entities": [
+      "Program Alpha",
+      "Synthetic Organization Beta",
+      "Synthetic Planning Office"
+    ],
+    "relations": [
+      "delivered-by",
+      "reports-to"
+    ],
+    "expected_answer": "Synthetic Organization Beta reports quarterly to Synthetic Planning Office.",
+    "expected_evidence": [
+      {
+        "document_id": "SYN-DOC-PROGRAM",
+        "quote": "It is delivered by Synthetic Organization Beta."
+      },
+      {
+        "document_id": "SYN-DOC-ORG",
+        "quote": "reports quarterly to Synthetic Planning Office."
+      }
+    ],
+    "expected_citations": [
+      "SYN-DOC-PROGRAM",
+      "SYN-DOC-ORG"
+    ],
+    "complexity": "high",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-UNSUP-001",
+    "scenario_category": "unsupported",
+    "question": "What exact budget was approved for Program Alpha?",
+    "required_documents": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM",
+      "SYN-DOC-ORG"
+    ],
+    "entities": [
+      "Program Alpha"
+    ],
+    "relations": [],
+    "expected_answer": "Abstain: none of the synthetic documents gives an approved budget.",
+    "expected_evidence": [
+      {
+        "document_id": "SYN-DOC-PLANNING",
+        "quote": "No budget is specified."
+      }
+    ],
+    "expected_citations": [
+      "SYN-DOC-PLANNING",
+      "SYN-DOC-PROGRAM",
+      "SYN-DOC-ORG"
+    ],
+    "complexity": "low",
+    "synthetic": true
+  }
+]

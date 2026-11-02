@@ -1,0 +1,977 @@
+[
+  {
+    "id": "NT-001-Q01",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, mengapa tim Pusdatin menyusun pedoman AI dari awal (from scratch) dan mengapa diperlukan panduan formal bagi pegawai?",
+    "expected_answer": "Karena belum banyak organisasi atau perusahaan yang punya kebijakan serupa atau mau membagikannya, sehingga pedoman dibuat dari nol dan perlu didiskusikan dengan pakar. Pegawai juga sudah memakai AI, sehingga lebih baik diberi panduan formal daripada digunakan tanpa guidance yang jelas.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Perusahaan begitu ya beberapa kali saya juga ngobrol, belum ada kebijakan atau yang bersangkutan tidak mau share nah akhirnya kami coba bikin dari scratch dan kami tentu perlu diskusi dengan para pakar bidang ini.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:00:10",
+    "coverage_time_end": "00:01:05"
+  },
+  {
+    "id": "NT-001-Q02",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, apa saja contoh tugas kedinasan yang dibantu AI?",
+    "expected_answer": "AI dipakai untuk membantu tugas kedinasan seperti mengolah data, meringkas dokumen, atau bahkan membuat dokumen dari nol.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Amat gencar apa saat ini Bapak Nas yang amat gencar untuk menggunakannya ya untuk membantu tugas kedinasan Bu, nah dari beberapa tugasan di sana tuh bisa jadi mengolah data, meringkas dokumen, atau bahkan membuat",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:01:41",
+    "coverage_time_end": "00:02:01"
+  },
+  {
+    "id": "NT-001-Q03",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, risiko AI apa saja yang menjadi alasan perlunya pedoman, dan apa tujuan pedoman tersebut?",
+    "expected_answer": "Risiko yang disebut adalah pemalsuan data, deepfake, dan pengiringan opini. Pedoman disusun agar pegawai dapat memanfaatkan AI dengan lebih bijak.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Namun demikian, sampai saat ini kita juga mendengar bahwa AI itu kan banyak risikonya, mulai dari pemalsuan data, deepfake misal, atau mungkin pengirangan opini dan macam-macam.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:02:01",
+    "coverage_time_end": "00:02:35"
+  },
+  {
+    "id": "NT-001-Q04",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, bagaimana struktur draf nol pedoman AI, yaitu berapa bab dan apa isi Bab 1 dan Bab 2?",
+    "expected_answer": "Draf nol terdiri dari tiga bab dan lampiran. Bab 1 menjelaskan jenis AI, arsitektur dasar, contoh pemanfaatan, dan cara memilih. Bab 2 mengatur risiko dan batasan data: data apa yang boleh diproses AI, model layanan yang digunakan, tingkat risiko, larangan, dan batasan.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Susun di draft nol ini terdiri dari tiga bab dan juga lampiran. Nah, untuk bab yang pertama itu menjelaskan terkait jenis AI, kemudian arsitektur dasarnya seperti apa, contoh pemanfaatan, serta cara memilih.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:09:20",
+    "coverage_time_end": "00:09:55"
+  },
+  {
+    "id": "NT-001-Q05",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, produk AI internal apa yang menyediakan fungsi speech recognition serupa Fireflies?",
+    "expected_answer": "Produk internal berupa sistem speech recognition dan pembuatan transkrip, seperti Fireflies: menangkap suara dari Zoom meeting lalu membuat transkripnya.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Sejauh ini masih speech recognition dan pembuatan transkrip Bu, jadi di antara produk internal kami adalah kami membuat seperti Fireflies begitu.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:25:10",
+    "coverage_time_end": "00:25:31"
+  },
+  {
+    "id": "NT-001-Q06",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, apa cakupan pedoman penggunaan AI yang perlu dijelaskan, termasuk perbedaan AI generatif dan non-generatif?",
+    "expected_answer": "Ayu menyampaikan bahwa panduan acuan awalnya berjudul panduan penggunaan generatif AI. Ia menyarankan agar pedoman menjelaskan secara umum bahwa tidak semua AI bersifat generatif, misalnya ada agen berbasis problem solving, learning, dan reasoning serta pembagian diskriminatif versus generatif.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Yang tahun dua ribu empat kalau nggak salah itu memang dari awal judulnya adalah panduan penggunaan generatif AI.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:14:02",
+    "coverage_time_end": "00:14:51"
+  },
+  {
+    "id": "NT-001-Q07",
+    "document_id": "NT-001",
+    "question": "Selain AI generatif, jenis pemanfaatan AI apa lagi yang dicontohkan untuk dicakup dalam pedoman?",
+    "expected_answer": "Pedoman diarahkan mencakup pemanfaatan AI selain AI generatif. Contoh yang disebut dalam transkrip adalah otomasi AI.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Tindakan tidak hanya bisa, tidak hanya mengatur untuk generatif AI namun bisa untuk pemanfaatan AI yang lain seperti otomasi AI kemudian pemanfaatannya yang lain seperti itu.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:14:51",
+    "coverage_time_end": "00:15:19"
+  },
+  {
+    "id": "NT-001-Q08",
+    "document_id": "NT-001",
+    "question": "Konsep modalitas AI apa yang perlu dijelaskan dalam pedoman, termasuk modalitas suara dan gambar?",
+    "expected_answer": "Pemahaman tentang AI multimodal perlu dimasukkan ke dalam pedoman. Modalitas yang dibahas mencakup suara dan gambar, selain teks.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Funksi atau jenis modalitinya ya nggak papa, tapi pemahaman tentang simultimonal ini perlu dimasukkan.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:31:50",
+    "coverage_time_end": "00:32:08"
+  },
+  {
+    "id": "NT-001-Q09",
+    "document_id": "NT-001",
+    "question": "Apa mekanisme persetujuan penggunaan tools AI oleh pegawai dan peninjauan tools yang sudah disetujui?",
+    "expected_answer": "Perlu ada unit atau peran yang memberi persetujuan atas penggunaan tools AI. Pegawai perlu berkonsultasi sebelum menggunakannya, dan unit terkait perlu meninjau secara berkala apakah tools yang telah disetujui masih sesuai dengan aturan yang berlaku.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Belum ada Bu, belum ada penjelasan di situ, jadi kalau ngomongin tata kelola itu harusnya ada.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:46:00",
+    "coverage_time_end": "00:47:00"
+  },
+  {
+    "id": "NT-001-Q10",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, bagaimana contoh kontrol akses AI di NUS, yaitu pegawai harus mengakses portal yang disediakan?",
+    "expected_answer": "Pegawai NUS diharuskan mengakses portal yang disediakan; mesin LLM-nya diatur di portal itu (misalnya ke ChatGPT atau Claude), sehingga pembatasan memakai teknologi dan tidak hanya panduan. Pegawai tidak boleh langsung memakai layanan seperti ChatGPT atau Claude, dan semua aktivitas tercatat serta bisa dianalisis.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Mereka tuh diharuskan untuk mengakses portal yang sudah disediakan oleh NUS ini, di mana di portal itu bagian engine LRM-nya itu bisa diatur mau pakai yang",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:57:17",
+    "coverage_time_end": "00:59:15"
+  },
+  {
+    "id": "NT-001-Q11",
+    "document_id": "NT-001",
+    "question": "Model AI on-premise apa yang dibangun sendiri untuk mengolah data kementerian atau data rahasia, dan apa opsi berlangganan AI dari penyedia luar?",
+    "expected_answer": "Model on-premise yang dibangun sendiri adalah Arcana AI untuk mengolah data kementerian dan data rahasia, sedangkan opsi dari penyedia luar adalah berlangganan AI Enterprise.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Iya betul bu, jadi ini sebenarnya misalkan kita menggunakan model yang on premise seperti yang kita bangun sendiri seperti Arcana AI. Nah itu berarti kita",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:04:08",
+    "coverage_time_end": "01:04:44"
+  },
+  {
+    "id": "NT-001-Q12",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, apakah pedoman AI ditujukan bagi pengguna saja atau juga pengembang,?",
+    "expected_answer": "Anwari menyatakan panduan AI untuk developer dan untuk pengguna tidak sama 100 persen; mungkin ada yang overlap tetapi pasti ada bedanya dan akan dibahas lebih lanjut dengan Kapusdatin. Draf diasumsikan untuk pengguna karena jumlahnya banyak, dan clearance pengguna biasa dengan developer bisa berbeda.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Iya, jadi karena kalau panduan menggunakan AI untuk developer dengan panduannya menggunakan AI buat perencanaan nggak sama seratus persen gan.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:09:49",
+    "coverage_time_end": "01:10:30"
+  },
+  {
+    "id": "NT-001-Q13",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, apa arahan pimpinan terkait mekanisme penyerahan akun AI Enterprise atau institusional kepada pengguna dan surat penyerahannya?",
+    "expected_answer": "Pimpinan meminta pedoman menambahkan mekanisme penyerahan akun AI Enterprise atau institusional kepada pengguna. Tim membuat rancangan isi surat penyerahannya dan meminta koreksi Ayu, yang juga menyarankan mengecek ulang penempatan bagian tersebut.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Adalah arahan dari pimpinan untuk dimasukkan ke pedoman, jadi memang diminta untuk menambahkan bagaimana atau mekanisme penyerapan akun AI.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:18:03",
+    "coverage_time_end": "01:18:50"
+  },
+  {
+    "id": "NT-001-Q14",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, mengapa skema human-in-the-loop memengaruhi tingkat risiko chatbot, misalnya chatbot internal Bappenas dibanding chatbot langsung ke masyarakat?",
+    "expected_answer": "Tingkat risiko juga ditentukan kualitas output dan ada tidaknya human-in-the-loop. Chatbot internal Bappenas yang keluarannya kurang pas tidak terlalu membahayakan citra, tetapi chatbot yang langsung ke masyarakat tanpa human-in-the-loop berisiko lebih besar.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Kalau chatbot ke dalam Bappenas ada output yang kurang pas juga nggak apa-apa, enggak jadi membahayakan citra, tapi ketika si chatbot ini langs",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:23:30",
+    "coverage_time_end": "01:24:15"
+  },
+  {
+    "id": "NT-001-Q15",
+    "document_id": "NT-001",
+    "question": "Dalam konsultasi akademisi untuk draf Pedoman AI Bappenas pada 18 Agustus 2026, apa tindak lanjut tata kelola yang diperlukan untuk menetapkan penanggung jawab pada setiap tahap pengembangan AI?",
+    "expected_answer": "Ayu menyarankan pembahasan lanjutan tata kelola karena harus ada pihak yang memegang peran. Di setiap tahap pengembangan harus ada penanggung jawab yang dapat ditanya ketika terjadi masalah.",
+    "expected_source_files": [
+      "20260818-13-08-41-pembahasan-masukan-akademisi-untuk-draft-p-2026-08-18.md"
+    ],
+    "evidence_quote": "Oke, jadi kalau saya nanti mau ini lagi masa mari mungkin bisa membuat juga pembahasan yang tidak tahu di Bappenas yang kaitan dengan tata kelola ini gitu bahwa memang harus ada yang pegang rol.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:31:51",
+    "coverage_time_end": "01:32:23"
+  },
+  {
+    "id": "NT-002-Q01",
+    "document_id": "NT-002",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, apa tujuan kunjungan Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM?",
+    "expected_answer": "Bappenas ingin memperoleh pembelajaran dan referensi tentang pemanfaatan teknologi digital dan kecerdasan buatan, termasuk penerapannya dalam kegiatan sehari-hari serta pengelolaan dan pengembangan dashboard.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Apa namanya, kami ingin memperoleh pembelajaran, Pak, sama referensi bagaimana pemanfaatan dari teknologi digital serta kecerdasan buatan atau akal imitasi itu bisa dikembangkan menjadi satu?",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:00:21",
+    "coverage_time_end": "00:00:58"
+  },
+  {
+    "id": "NT-002-Q02",
+    "document_id": "NT-002",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, bagaimana kondisi kerja direktorat di bawah Kedeputian Perencanaan Makro dan di mana pekerjaan mereka tersimpan,?",
+    "expected_answer": "Beberapa direktorat masih bekerja secara silo. Pekerjaan mereka tersebar di database masing-masing unit kerja, dan setiap unit mengembangkan model sendiri.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Pekerjaan tersebut saat ini itu masih tersebar di database dari masing-masing unit kerja tersebut, kemudian mereka mengembangkan model-model mereka sendiri.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:01:15",
+    "coverage_time_end": "00:02:03"
+  },
+  {
+    "id": "NT-002-Q03",
+    "document_id": "NT-002",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, apa gagasan Makrointelligence Hub?",
+    "expected_answer": "Makrointelligence Hub dimaksudkan untuk mengonsolidasikan pengetahuan, aset, data, referensi, dan dashboard dari masing-masing unit kerja menjadi satu kesatuan, bukan sekadar database konvensional, dengan landing page dan portal sebagai pintu masuk.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Ambited EAMbitted. Nah, sehingga memang kami itu kepingin untuk membuat satu yang namanya Makrointelligence Hub. Nah, sebetulnya Makrointelligence Hub kalau versi pemerintah ya sederhana, Pak. Sebenarnya kami",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:04:36",
+    "coverage_time_end": "00:05:23"
+  },
+  {
+    "id": "NT-002-Q04",
+    "document_id": "NT-002",
+    "question": "Bagaimana UGM menerapkan pengembangan sistem secara bertahap dari pekerjaan kecil (baby step) dan seperti apa pendekatan working with example?",
+    "expected_answer": "UGM mengerjakan secara bertahap dari pekerjaan kecil (baby step) lalu mengembangkannya, serta menerapkan pendekatan working with example dengan menyiapkan contoh nyata terlebih dahulu untuk didiskusikan.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Kami tidak akan mengerjakan sesuatu yang sifatnya itu langsung besar gitu, Pak, tapi kecil tapi terus ada kerut-nyanya, kadang-kadang mentok, Pak.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:16:17",
+    "coverage_time_end": "01:16:57"
+  },
+  {
+    "id": "NT-002-Q05",
+    "document_id": "NT-002",
+    "question": "Sumber data apa yang diprioritaskan pada tahap awal, di mana rencananya disimpan, dan sumber apa yang belum digunakan?",
+    "expected_answer": "Pada tahap awal, sumber data diprioritaskan dari internal organisasi dan direncanakan disimpan di drive atau server internal. Sumber dari luar belum digunakan.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Nanti karena emang seperti itu, tapi saya harapkan karena ini kan source-nya dari di dalam, Pak, disimpan di baru. Simpelnya di mana sih drive-nya? Dia apa? Drive diskervoin, lah, diskervoinya yang kita tidak ngambil",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:32:17",
+    "coverage_time_end": "01:33:02"
+  },
+  {
+    "id": "NT-002-Q06",
+    "document_id": "NT-002",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, mengapa penggunaan model AI asal Tiongkok masih ditunda?",
+    "expected_answer": "Karena belum ada kepastian zero data retention, sehingga mereka takut menggunakan model China meskipun biayanya lebih murah.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Cina ini belum ada zero data retention yang menjawabkan kami agak takut nih menggunakan model China, walaupun sebenarnya kalau kita bicara konversinya lebih murah, nah tapi setelah melihat.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:11:08",
+    "coverage_time_end": "01:12:01"
+  },
+  {
+    "id": "NT-002-Q07",
+    "document_id": "NT-002",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, berdasarkan sumber apa agen AI pada Portal PMP menghasilkan jawabannya?",
+    "expected_answer": "Grady menunjukkan percakapan dengan agen AI yang menjawab berdasarkan dokumen yang diunggah, dan agen tersebut diakses melalui Portal PMP.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "AI yang kami sudah sebenarnya ini menggunakan AI kan? Sistemnya AIG, jadi ketika kita ada melakukan percakapan dengan AI-nya, nanti AI-nya menjawab.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:10:14",
+    "coverage_time_end": "00:10:48"
+  },
+  {
+    "id": "NT-002-Q08",
+    "document_id": "NT-002",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, apa visi Intelligent University yang ingin diwujudkan UGM?",
+    "expected_answer": "UGM berkomitmen mengakselerasi pengembangan teknologi, terutama AI. Atas amanah Majelis Wali Amanah, UGM menjadi Intelligent University, bukan universitas biasa.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Di AI itu adalah kita diberi amanah dari apa namanya setelahnya kami tuh ada Majelis Wali Amanah ini ya? Itu membuat UGM itu menjadi Intelligent University.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:19:46",
+    "coverage_time_end": "00:20:43"
+  },
+  {
+    "id": "NT-002-Q09",
+    "document_id": "NT-002",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, inisiatif apa yang ditampilkan Biro Transformasi Digital UGM, dan apa alasan UGM memiliki laboratorium serta server kecil sendiri?",
+    "expected_answer": "Alif menampilkan website AI UGM, portal pemetaan bencana, dan kerja sama dengan industri. UGM punya lab dan server kecil sendiri untuk inisiatif yang tidak bisa langsung diwadahi oleh DTI.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Inisiatif-inisiatif kami yang memang tidak bisa diwadahi langsung dengan DTI, jadi kami punya apa ya, server kecil gitu untuk meniling semuanya, kemudian EA-nya tadi ini untuk yang sesuai dari Kampar.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:40:46",
+    "coverage_time_end": "00:41:59"
+  },
+  {
+    "id": "NT-002-Q10",
+    "document_id": "NT-002",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, seperti apa dashboard yang dibutuhkan agar tidak sekadar menampilkan data?",
+    "expected_answer": "Dashboard harus memberi insight, membantu orang mengambil keputusan atau melihat secara utuh, dan jika memungkinkan memberi foresight, bukan hanya data.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Ing, ingat kata-kata Bapak bahwa dashboard itu kan dashpot, misalnya ya, Pak, bukan hanya data-data yang harusnya bisa memberikan insight, gitu ya, Pak? Harusnya bisa memberikan sesuatu untuk orang mengambil keputusan",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:03:06",
+    "coverage_time_end": "01:03:47"
+  },
+  {
+    "id": "NT-002-Q11",
+    "document_id": "NT-002",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, apa alasan penggunaan model berbahasa Indonesia seperti Sahabat AI?",
+    "expected_answer": "UGM bekerja sama membangun data model bahasa Indonesia bernama Sahabat AI, yang menurut pengalamannya lebih powerful karena mengenali konteks informasi berbahasa Indonesia dibanding hanya terjemahan.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Sebelumnya, kerjasama Pak membangun data model untuk bahasa Indonesia sendiri namanya Sahabat AI, kalau itu?",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:28:04",
+    "coverage_time_end": "01:28:58"
+  },
+  {
+    "id": "NT-002-Q12",
+    "document_id": "NT-002",
+    "question": "Bagaimana strategi UGM terkait biaya token AI dari membayar di awal hingga menekan biaya token ke zero dalam jangka panjang?",
+    "expected_answer": "Strategi UGM adalah membayar biaya token pada tahap awal, namun berharap dan menargetkan biaya token dapat ditekan hingga mendekati zero dalam jangka panjang.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Kita sudah harus move ini pada tahap tertentu, ingat sendiri. Nah, jadi kami di terus-terang ya, strategi kami adalah memang kami di awal nih emang bayarin token, Mbak, tapi.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:13:20",
+    "coverage_time_end": "01:13:58"
+  },
+  {
+    "id": "NT-002-Q13",
+    "document_id": "NT-002",
+    "question": "Saluran komunikasi apa yang direncanakan untuk melanjutkan koordinasi Bappenas dan UGM?",
+    "expected_answer": "Tim berencana melanjutkan diskusi dan koordinasi melalui grup WhatsApp khusus antara instansi dan UGM, untuk komunikasi dasar dan tindak lanjut yang lebih cepat.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Dan juga melanjutkan diskusi ini. Jadi, bahkan nih beberapa instansi membuat WAG group khusus tampaknya ya dengan kita. Jadi untuk yang minimal komunikasi, lalu kemudian biar lebih cepat.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "02:01:36",
+    "coverage_time_end": "02:02:00"
+  },
+  {
+    "id": "NT-002-Q14",
+    "document_id": "NT-002",
+    "question": "Dalam kunjungan studi Kedeputian PMP Bappenas ke Biro Transformasi Digital UGM pada 4 September 2026, bagaimana rencana menghubungkan agen AI ke dashboard EWS pada Portal PMP?",
+    "expected_answer": "Agen AI belum terhubung ke dashboard EWS (Early Warning System); ke depan mereka ingin agar agen tersebut bisa terkoneksi ke dashboard tersebut.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Dan ini mungkin ke depannya juga. Ini belum konek ke dashboard ya, Pak? Dashboard yang tadi ada dashboard kerja, dashboard apa namanya, EWS, Early Warning System. Nah, ini kita mungkin ke depannya kita pengen juga untuk",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:14:20",
+    "coverage_time_end": "00:14:52"
+  },
+  {
+    "id": "NT-002-Q15",
+    "document_id": "NT-002",
+    "question": "Bagaimana tren perubahan pelaporan dari yang sifatnya by number menjadi insight atau data analitik, serta penyesuaian saat fokus tema bergeser ke berdampak?",
+    "expected_answer": "Tren pelaporan diubah sebanyak mungkin dari yang bersifat by number menjadi insight atau data analitik, serta membutuhkan penyesuaian pendekatan dan algoritma ketika fokus tema bergeser menjadi berdampak.",
+    "expected_source_files": [
+      "20260904-09-08-09-pengetahuan-tata-kelola-pengetahuan-pemanf-2026-09-04.md"
+    ],
+    "evidence_quote": "Nah, mungkin trennya ke situ, Pak. Jadi, trennya kita akan mencoba sebanyak mungkin mengubah dari sport yang sifatnya itu by number itu berubah.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:24:03",
+    "coverage_time_end": "01:25:05"
+  },
+  {
+    "id": "NT-003-Q01",
+    "document_id": "NT-003",
+    "question": "Dalam sesi sharing knowledge pengelolaan dan pengembangan dashboard PMP pada 8 September 2026, apa fungsi portal PMP, termasuk menu setelah pegawai login?",
+    "expected_answer": "Portal PMP memiliki interface publik untuk kegiatan dan layanan PMP. Pegawai yang login dapat mengakses menu seperti Perpustakaan PMP, Agen AI PMP, dan dashboard internal.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Atau pegawai PMP ketika login, maka akan dapat mengakses sejumlah, apa namanya, menu, salah satunya Perpustakaan PMP, kemudian Ejen AIPMPE, nanti kemudian dashboard-dashboard internal, baik itu",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:02:43",
+    "coverage_time_end": "00:03:31"
+  },
+  {
+    "id": "NT-003-Q02",
+    "document_id": "NT-003",
+    "question": "Seberapa sering data pengetahuan, berita, dan publikasi direncanakan diperbarui?",
+    "expected_answer": "Data pengetahuan, berita, publikasi, dan data terkait lainnya direncanakan diperbarui setiap dua minggu.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Lakukan data update setiap dua minggu, baik itu data ilmu pengetahuan ataupun data berita, publikasi, dan sebagainya, dilakukan setiap dua minggu.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:05:46",
+    "coverage_time_end": "00:06:37"
+  },
+  {
+    "id": "NT-003-Q03",
+    "document_id": "NT-003",
+    "question": "Dalam sesi sharing knowledge pengelolaan dan pengembangan dashboard PMP pada 8 September 2026, siapa saja yang dapat mengakses Perpustakaan PMP dan Arcana Karya melalui portal?",
+    "expected_answer": "Perpustakaan PMP dan Arcana Karya adalah dua tautan yang hanya dapat diakses oleh pengguna yang sudah login.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "PMP dan juga Arcana Karya. Oh iya, ini kondisi sudah login ya. Jadi untuk perpustakaan PPM dan juga Arcana Karya, ini dua tautan yang hanya bisa diakses oleh user yang sudah",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:09:21",
+    "coverage_time_end": "00:10:05"
+  },
+  {
+    "id": "NT-003-Q04",
+    "document_id": "NT-003",
+    "question": "Mengapa aset digital PMP perlu disatukan melalui satu website atau portal?",
+    "expected_answer": "Aset digital PMP tersebar dan belum tersedia di satu tempat. Satu website atau portal diusulkan agar berbagai aset digital dapat diakses melalui satu lokasi.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Dengan satu website ini, kita bisa ke mana pun, ke semua aset digital yang dimiliki oleh PMI, karena sekarang aset-aset digital di PMI kan cukup tersebar dan belum ada satu tempat yang dapat.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:12:36",
+    "coverage_time_end": "00:13:12"
+  },
+  {
+    "id": "NT-003-Q05",
+    "document_id": "NT-003",
+    "question": "Apa harapan dari pemberian rujukan dokumen pada setiap jawaban AI agar pengguna dapat meng-crosscheck data di Portal PMP?",
+    "expected_answer": "Pemberian rujukan bertujuan agar pengguna tidak menggunakan jawaban AI serta-merta, melainkan dapat meng-crosscheck kembali informasi tersebut ke data atau dokumen sumbernya.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Tidak bisa kita gunakan serta merta jawaban apapun yang diberikan oleh AI, dan harapannya dengan memberikan rujukan ini, teman-teman dapat mengcrosscheck lagi dari data-data atau apa?",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:15:47",
+    "coverage_time_end": "00:16:21"
+  },
+  {
+    "id": "NT-003-Q06",
+    "document_id": "NT-003",
+    "question": "Jika topik tidak dapat digabungkan dalam satu dashboard, bagaimana penyajikan dashboard direncanakan?",
+    "expected_answer": "Jika topik tidak dapat digabungkan, dashboard dapat dibuat terpisah untuk masing-masing topik, misalnya dashboard komoditas dan PHK.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Emang tidak bisa disatukan, maka kemungkinan pendekatannya akan menjadi dashboard khusus masing-masing, kayak tadi yang dicontohkan ada komoditas, apa namanya, PHK, kemudian dashboard-dashboard lainnya.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:19:08",
+    "coverage_time_end": "00:19:47"
+  },
+  {
+    "id": "NT-003-Q07",
+    "document_id": "NT-003",
+    "question": "Dalam sesi sharing knowledge pengelolaan dan pengembangan dashboard PMP pada 8 September 2026, mengapa dokumen perlu diunggah ke dua tempat, yaitu Perpustakaan PMP dan sistem pengetahuan kementerian?",
+    "expected_answer": "Untuk sementara belum bisa diakomodasi satu tempat: Perpustakaan PMP dipakai sebagai bahan feeding untuk agen AI PMP, sedangkan satu lagi untuk memperkaya pengetahuan di sistem pengetahuan kementerian. Unggah ke dua tempat bukan best practice tetapi belum bisa dihindari.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Belum bisa diakomodir, jadi untuk sementara itu mohon maaf juga ke teman-teman kalau kami butuh ngaputnya kedua tempat. Satu kepada Perpustakaan PMP sebagai bahan feeding untuk AIPMPEntukkeperluaan MPP, kemudian yang",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:28:49",
+    "coverage_time_end": "00:29:46"
+  },
+  {
+    "id": "NT-003-Q08",
+    "document_id": "NT-003",
+    "question": "Dalam sesi sharing knowledge pengelolaan dan pengembangan dashboard PMP pada 8 September 2026, dokumen administrasi apa yang dibahas terkait pengarsipan dan pihak mana yang mungkin terkait?",
+    "expected_answer": "Yang disimpan berupa nota dinas dan surat undangan, sehingga ada keterkaitan dengan pengarsipan dan mungkin Biro Humas.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Keterkaitan dengan pengarsipan karena yang disimpan itu dalam bentuk nota dinas serta mungkin surat undangan, maka ini mungkin ada keterkaitannya sama Biro Humas?",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:32:17",
+    "coverage_time_end": "00:32:54"
+  },
+  {
+    "id": "NT-003-Q09",
+    "document_id": "NT-003",
+    "question": "Dalam sesi sharing knowledge pengelolaan dan pengembangan dashboard PMP pada 8 September 2026, apa isu teknis yang dipertanyakan Sesdep PMP tentang kemampuan sistem pengetahuan memenuhi kebutuhan Kedeputian PMP?",
+    "expected_answer": "Mereka menanyakan apakah sistem yang ada saat ini sudah bisa menjawab skill set yang dibutuhkan Kedeputian PMP, sementara saat ini memakai frontier model dengan pengetahuan yang diisolasi hanya dari Kedeputian PMP.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Isu diskusi teknis, apakah yang ada di dalam sistem komens saat ini sudah bisa menjawab skill set yang dibutuhkan oleh deputation PMP?",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:43:02",
+    "coverage_time_end": "00:46:53"
+  },
+  {
+    "id": "NT-003-Q10",
+    "document_id": "NT-003",
+    "question": "Platform apa yang masih digunakan untuk mengunggah dokumen kinerja manajemen?",
+    "expected_answer": "Dokumen kinerja manajemen yang sudah ada masih diunggah menggunakan SharePoint.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Tetap mengupload kinerja manajemen yang kita sudah ada menggunakan SharePoint sekarang, Mas?",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:48:51",
+    "coverage_time_end": "00:49:50"
+  },
+  {
+    "id": "NT-003-Q11",
+    "document_id": "NT-003",
+    "question": "Integrasi apa yang ditanyakan untuk memasukkan API yang dapat diakses melalui HPC ke sistem RAG?",
+    "expected_answer": "Yang ditanyakan adalah apakah API yang dapat diakses melalui HPC Bappenas dapat di-embed atau diintegrasikan ke dalam sistem RAG.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Itu semacam yang kita tanyakan. Kami kalau misalnya memang bisa kami pernyataan untuk mengembed apa namanya API-nya itu ke dalam sistem Raga, gitu lah tuh?",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:50:41",
+    "coverage_time_end": "00:53:43"
+  },
+  {
+    "id": "NT-003-Q12",
+    "document_id": "NT-003",
+    "question": "Apa yang perlu diperiksa kembali sebelum hasil dashboard hilirisasi digunakan, khususnya terkait data dan algoritma?",
+    "expected_answer": "Akurasi data perlu diperiksa kembali. Konseptualisasi algoritma juga perlu ditinjau agar pengolahan data dan hasil dashboard sesuai.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Karena dashboard itu pertama, kami juga harus mengecek kembali untuk akurasi datanya. Saat ini memang datanya itu diambil dari sumber-sumber seperti data.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:11:40",
+    "coverage_time_end": "01:12:53"
+  },
+  {
+    "id": "NT-003-Q13",
+    "document_id": "NT-003",
+    "question": "Dalam sesi sharing knowledge pengelolaan dan pengembangan dashboard PMP pada 8 September 2026, apa yang perlu ditetapkan untuk pemutakhiran pengetahuan setelah unggahan ke dua tempat?",
+    "expected_answer": "Mekanisme pengendalian dua mingguan dan mekanisme update pengetahuan perlu didiskusikan terpisah, dengan arahan teknis yang lebih lanjut.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Pengendalian yang tiap dua minggu itu nanti mungkin bisa didiskusikan terpisah ya, Mas. Ya, nanti itu akan ada, harusnya kan ada arahan lebih teknis sih terkait bagaimana nanti pengendalian dan juga mekanisme untuk",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:15:27",
+    "coverage_time_end": "01:15:54"
+  },
+  {
+    "id": "NT-003-Q14",
+    "document_id": "NT-003",
+    "question": "Apa perbedaan dashboard dengan tampilan yang hanya menampilkan indikator seperti database?",
+    "expected_answer": "Tampilan yang hanya memunculkan indikator dianggap seperti database. Dashboard perlu memiliki pemodelan yang mengolah indikator menjadi sinyal atau informasi untuk membantu memahami kondisi dan mengambil keputusan.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Tapi kalau indikator itu dimunculin, itu bukan dashboard namanya, itu database. Dashboard tuh harus bisa yang paling berat di dalam dashboard, tuh modelingnya.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:25:16",
+    "coverage_time_end": "01:25:38"
+  },
+  {
+    "id": "NT-003-Q15",
+    "document_id": "NT-003",
+    "question": "Dalam sesi sharing knowledge pengelolaan dan pengembangan dashboard PMP pada 8 September 2026, apa yang diminta Sesdep PMP dari unit terkait pengetahuan yang dimiliki?",
+    "expected_answer": "Unit diminta merinci pengetahuan yang dimiliki agar dapat diinjeksikan atau diinputkan ke sistem.",
+    "expected_source_files": [
+      "20260908-13-24-58-sharing-knowledge-pengelolaan-dan-pengemba-2026-09-08.md"
+    ],
+    "evidence_quote": "Oke, baik, kami lanjut ya. Pempatnya ada lagi tambahan, Mas Pandu, selain itu yang mengenai pengetahuan, ya. Kami mohon juga nanti di-detailkan juga pengetahuan yang dimiliki oleh Pempatnya untuk kemudian kita bisa",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:31:56",
+    "coverage_time_end": "01:32:11"
+  },
+  {
+    "id": "NT-004-Q01",
+    "document_id": "NT-004",
+    "question": "Dalam rapat pada 8 Oktober 2026, apa saja tiga keluaran dari pekerjaan konsultan yang dibahas oleh Mas Feri?",
+    "expected_answer": "Tiga keluaran pekerjaan konsultansi yang dibahas adalah gap analysis, rencana pengembangan, dan pendampingan tim pelaksana teknik.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "sebetulnya ada tiga dari kami. Ya, ada tiga keluaran nanti yang Pertama adalah dari kepanlasis, lalu kemudian rencana pengembangan nilai, dan nanti pendampingan dari tim pelaksana teknik.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:01:11",
+    "coverage_time_end": "00:01:25"
+  },
+  {
+    "id": "NT-004-Q02",
+    "document_id": "NT-004",
+    "question": "Dalam rapat lanjutan pekerjaan konsultan perencanaan dan pengawasan AI Bappenas pada 8 Oktober 2026, standar ISO apa yang menjadi acuan formulir asesmen awal?",
+    "expected_answer": "ISO 27001 dan ISO 42000-100 dipakai sebagai dasar acuan.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Dalam perancangan form proses penawaran kemarin, jadi ada beberapa standar yang kami pakai. Salah satunya kemarin adalah ISO 27001, lalu kemudian ISO 42000-100 itu yang kami pakai sebagai dasarnya.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:01:40",
+    "coverage_time_end": "00:01:55"
+  },
+  {
+    "id": "NT-004-Q03",
+    "document_id": "NT-004",
+    "question": "Mengapa dimensi kinerja dan akurasi keluaran memperoleh skor terendah, dan belum adanya kerangka pengujian, data uji, serta metrik kinerja apa yang menjadi penyebabnya?",
+    "expected_answer": "Dimensi kinerja dan akurasi keluaran memperoleh skor terendah karena belum tersedianya kerangka pengujian, dataset pengujian, maupun metrik kinerja yang spesifik.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Nanti akan saya diskusikan lagi detailnya ke mana. Nah, skor terendah satu ini ada pada dimensi kerja dan akurasi keluaran karena di sini masih belum ada kerangka pengujian data uji maupun metrik kinerja yang lebih",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:05:39",
+    "coverage_time_end": "00:06:05"
+  },
+  {
+    "id": "NT-004-Q04",
+    "document_id": "NT-004",
+    "question": "Bagaimana sistem AI dibangun secara internal di Bappenas, baik dari kodenya, pemrosesan secara on-premise, maupun sertifikasi ISO pusat data?",
+    "expected_answer": "Sistem AI dibuat secara internal baik program maupun kodenya, diproses secara on-premise, dan pusat datanya telah tersertifikasi ISO (ISO 27001).",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "A yang sudah dibangun ini memang sudah dibuat secara internal, baik itu secara program maupun kodenya sendiri, semuanya sudah diproses secara on premise dan pusat datanya sendiri sudah tersertifikasi ISO.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:07:12",
+    "coverage_time_end": "00:07:34"
+  },
+  {
+    "id": "NT-004-Q05",
+    "document_id": "NT-004",
+    "question": "Dua kelompok pengguna pada level apa yang perlu dilibatkan dalam perancangan sistem?",
+    "expected_answer": "Perancangan perlu melibatkan pengguna pada level operasional dan pengambil keputusan (decision maker).",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Jadi ini mungkin nanti juga akan kita masukkan ke dalam perancangan karena kita mungkin akan butuh akses ke beberapa penggunanya, baik di level operasional maupun di level decision maker kita.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:09:32",
+    "coverage_time_end": "00:09:54"
+  },
+  {
+    "id": "NT-004-Q06",
+    "document_id": "NT-004",
+    "question": "Dalam rapat pada 8 Oktober 2026, apa saja temuan terkait mutu keluaran output AI yang dianalisis oleh konsultan?",
+    "expected_answer": "Temuan mutu keluaran meliputi adanya error seperti Bappenas menjadi papanas, potensi halusinasi dari knowledge luar, serta validasi yang sebelumnya dibebankan sepenuhnya kepada pengguna.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Yang pertama adalah terkait dengan mutu, jadi kualitas dari outputnya sendiri. Nah, kalau kami lihat, ini memang kemarin sempat ada error-error... Bappenas menjadi papanas atau menjadi apa gitu",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:11:22",
+    "coverage_time_end": "00:11:58"
+  },
+  {
+    "id": "NT-004-Q07",
+    "document_id": "NT-004",
+    "question": "Dalam rapat lanjutan pekerjaan konsultan perencanaan dan pengawasan AI Bappenas pada 8 Oktober 2026, isu perlindungan data pribadi apa yang perlu ditangani?",
+    "expected_answer": "Perlu selaras dengan UU PDP, aturan BSSN, dan Satu Data Indonesia, termasuk identitas harus disamarkan serta masa simpan atau retensi terdefinisi jelas.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Cek kembali dengan Undang-Undang Satu Data Indonesia. Jadi, contohnya, misal identitas ini harus disamarkan, kemudian masa simpan atau retensi, ya, ini juga harus terdefinisi dengan jelas. Kemudian",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:14:13",
+    "coverage_time_end": "00:14:39"
+  },
+  {
+    "id": "NT-004-Q08",
+    "document_id": "NT-004",
+    "question": "Mengapa tata kelola AI disebut belum terlembaga dengan baik, dan forum rutin apa yang belum ada terkait diskusi performance AI?",
+    "expected_answer": "Tata kelola AI belum terlembaga dengan baik karena belum ada forum rutin yang secara berkala mendiskusikan performance atau evaluasi sistem AI.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Juga memang masih belum terlembaga dengan baik, gitu. Jadi, belum ada forum yang rutin terkait dengan diskusi dari performance. Ya, ini sendiri biasanya yang paling sering muncul adalah best practice-nya.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:15:20",
+    "coverage_time_end": "00:15:58"
+  },
+  {
+    "id": "NT-004-Q09",
+    "document_id": "NT-004",
+    "question": "Dalam keadaan apa evaluasi AI biasanya dilakukan, dan contoh pemicunya apa?",
+    "expected_answer": "Evaluasi AI biasanya dilakukan ketika muncul kasus, misalnya kebocoran data.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "AI ini akan dievaluasi ketika ada suatu case, ada terbocornya data, atau misal kalau kita masih ingat beberapa tahun kemarin dasar.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:15:45",
+    "coverage_time_end": "00:16:10"
+  },
+  {
+    "id": "NT-004-Q10",
+    "document_id": "NT-004",
+    "question": "Bagaimana data dari database disiapkan secara lokal sebelum dipakai untuk menghasilkan feedback dengan AI?",
+    "expected_answer": "Data dari database diimpor terlebih dahulu ke lingkungan lokal, kemudian diproses untuk menghasilkan feedback.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Paling atau data yang ada dalam database kami masih kami import dulu ke dalam lokal kami, terus baru setelah itu kami generate untuk bisa jadi feedback untuk mas-masa ini.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:22:00",
+    "coverage_time_end": "00:22:26"
+  },
+  {
+    "id": "NT-004-Q11",
+    "document_id": "NT-004",
+    "question": "Dalam rapat pada 8 Oktober 2026, apa harapan dari integrasi beberapa aplikasi dan sistem yang sudah ada di Bappenas?",
+    "expected_answer": "Harapannya adalah menjadi satu sistem yang terintegrasi dengan satu sumber informasi yang sama sehingga kualitas dan asal data dapat dijamin serta dipertanggungjawabkan.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Memang sebelumnya sudah ada beberapa sistem, beberapa aplikasi. Harapannya ini menjadi satu sistem yang terintegrasi, satu sumber informasi yang sama, sehingga baik itu dari sisi kualitas.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:23:32",
+    "coverage_time_end": "00:23:58"
+  },
+  {
+    "id": "NT-004-Q12",
+    "document_id": "NT-004",
+    "question": "Berapa angka introduction score pada skala penilaian asesmen awal AI Bappenas yang disampaikan dirangkuman awal?",
+    "expected_answer": "Angka introduction score pada skala penilaian dirangkuman awal adalah 1,8.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Nah, skala penilaian tadi saya sempat menyampaikan di awal, dirangkuman awal itu ya, introduction score-nya di 1,8 untuk saat ini, nah.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:27:47",
+    "coverage_time_end": "00:28:10"
+  },
+  {
+    "id": "NT-004-Q13",
+    "document_id": "NT-004",
+    "question": "Dalam rapat lanjutan pekerjaan konsultan perencanaan dan pengawasan AI Bappenas pada 8 Oktober 2026, mengapa sumber daya manusia perlu disiapkan?",
+    "expected_answer": "SDM harus disiapkan dan cukup familiar, baik secara teknik maupun legal aturan, untuk regulasi, forum, dan penanggulangan case AI.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Kita mau membuat regulasi terkait dengan AI, contoh forum dan sebagainya, penanggulangan case. Nah, ini sumber daya manusianya memang harus disiapkan dan harus cukup familiar, gitu, baik secara teknik.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:27:11",
+    "coverage_time_end": "00:27:40"
+  },
+  {
+    "id": "NT-004-Q14",
+    "document_id": "NT-004",
+    "question": "Dalam rapat lanjutan pekerjaan konsultan perencanaan dan pengawasan AI Bappenas pada 8 Oktober 2026, kapan dokumen gap assessment ditargetkan siap?",
+    "expected_answer": "Direncanakan siap di akhir bulan itu.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Nah, jadwal dari kami itu rencananya di akhir bulan ini dokumen untuk gap assessment-nya sudah ready. Nah, kalau misalnya gap assessment-nya sudah ready di awal bulan?",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:06:25",
+    "coverage_time_end": "01:06:36"
+  },
+  {
+    "id": "NT-004-Q15",
+    "document_id": "NT-004",
+    "question": "Mengapa ISO 4201 dijadikan rujukan tata kelola AI di saat belum ada aturan resmi terkait penggunaan dan pengelolaannya di Indonesia?",
+    "expected_answer": "ISO 4201 dijadikan rujukan utama karena belum adanya aturan resmi di Indonesia yang mengatur penggunaan dan pengelolaan AI di lingkungan pemerintahan.",
+    "expected_source_files": [
+      "20261008-10-08-37-rapat-lanjutan-pembahasan-pekerjaan-konsul-2026-10-08.md"
+    ],
+    "evidence_quote": "Tadi di awal memang belum ada aturan resminya dari di Indonesia terkait dengan penggunaan AI dan pengelelangannya sendiri. Kita berangkat dari salah satunya tadi ISO 4201 yang memang sudah digunakan untuk",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:26:24",
+    "coverage_time_end": "01:26:48"
+  },
+  {
+    "id": "NT-005-Q01",
+    "document_id": "NT-005",
+    "question": "Dalam koordinasi teknis serah terima sistem Program Makan Bergizi Gratis antara Bappenas dan BGN pada 15 Juli 2026, apa pokok koordinasi teknis yang dibahas terkait serah terima sistem?",
+    "expected_answer": "Mekanisme serah terima sistem yang sudah dibangun berdasarkan output yang diamanatkan dalam MoU atau PKS antara Bappenas dan BGN.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Bagaimana mekanisme serah terima sistem yang sudah kita bangun berdasarkan output yang emang diamanatkan di dalam mou ataupun pks yang sudah disepakati bersama antara bapenas dan bagian dima?",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:21:10",
+    "coverage_time_end": "00:21:25"
+  },
+  {
+    "id": "NT-005-Q02",
+    "document_id": "NT-005",
+    "question": "Apa fungsi sistem yang dibangun melalui kerja sama pada tahun sebelumnya bagi BGN?",
+    "expected_answer": "Sistem hasil kerja sama tahun sebelumnya dapat digunakan BGN sebagai benchmarking atau baseline untuk membangun sistem serupa.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Dari kegiatan yang sudah dikerjasamakan tahun lalu itu berhasil dibangun suatu sistem yang bisa digunakan untuk menjadi benchmarking atau baseline teman-teman di.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:23:15",
+    "coverage_time_end": "00:23:30"
+  },
+  {
+    "id": "NT-005-Q03",
+    "document_id": "NT-005",
+    "question": "Dalam koordinasi teknis serah terima sistem Program Makan Bergizi Gratis antara Bappenas dan BGN pada 15 Juli 2026, apa yang perlu disepakati tentang sistem informasi yang akan dibangun di BGN?",
+    "expected_answer": "Perlu disepakati sistem dan informasi yang akan dibangun di BGN minimal seperti apa, dengan aplikasi BGN dilengkapi fitur dari sistem yang dibangun Bappenas.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Sistem dan informasi yang akan dibangun di bgn minimal seperti apa begitu karena kami sudah bisa membangunk sistem tersebut harapannya system.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:26:10",
+    "coverage_time_end": "00:26:45"
+  },
+  {
+    "id": "NT-005-Q04",
+    "document_id": "NT-005",
+    "question": "Bagian sistem MBG apa yang hendak didukung teknologi baru, dan untuk tujuan apa datanya diolah?",
+    "expected_answer": "Teknologi baru hendak mendukung sistem pelaporan dan manajemen data MBG agar datanya dapat dianalisis lebih mendalam. GPS juga disebut untuk memantau distribusi MBG.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Kemudian juga kalau kita lihat dengan perkembangan teknologi, kita berusaha bagaimana melibatkan atau memanfaatkannya untuk bisa mendukung sistem-sistem pelaporan kita ataupun system manif kita agar data.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:32:50",
+    "coverage_time_end": "00:33:20"
+  },
+  {
+    "id": "NT-005-Q05",
+    "document_id": "NT-005",
+    "question": "Di data center mana aplikasi berada saat ini, dan ke infrastruktur mana migrasi setelah serah terima sedang dibahas?",
+    "expected_answer": "Aplikasi saat ini berada di data center Bappenas. Pembahasan menanyakan kemungkinan memindahkannya ke data center BGN setelah serah terima.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Gimana skema keberlanjutan dari hosting ini karena saat ini aplikasi berada di data center bapenas, apakah nanti kalau sudah disertai makan, sudah bisa dimigrasikan ke datasenternya bgn atau seperti apa? Mungkin",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:36:25",
+    "coverage_time_end": "00:36:55"
+  },
+  {
+    "id": "NT-005-Q06",
+    "document_id": "NT-005",
+    "question": "Direktorat apa yang membangun sistem untuk mengakomodir kebutuhannya sebagai decision support system (sistem pendukung keputusan)?",
+    "expected_answer": "Sistem dibangun untuk mengakomodir kebutuhan Direktorat Pangan dan Pertanian serta berfungsi sebagai decision support system (sistem pendukung keputusan).",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Mengakomodir kebutuhan dari direktorat pangan dan pertanian waktu itu yang membangun sistem.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "00:42:49",
+    "coverage_time_end": "00:43:25"
+  },
+  {
+    "id": "NT-005-Q07",
+    "document_id": "NT-005",
+    "question": "Bagaimana kesiapan migrasi teknis dirancang agar aplikasi tetap dapat berjalan di Bappenas maupun setelah pindah ke BGN?",
+    "expected_answer": "Mekanisme migrasi teknis sedang disiapkan agar prosesnya efektif dan efisien. Aplikasi diharapkan tetap berjalan di infrastruktur Bappenas maupun setelah dipindahkan ke infrastruktur BGN.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Mungkin itu Pak Miza secara teknis insyaallah kami sudah memikirkan memang dan menyiapkan mekanisme migrasi yang seefektif mungkin dan efisien mungkin agar rekran akan pusdatin bgn di.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:37:00",
+    "coverage_time_end": "01:37:50"
+  },
+  {
+    "id": "NT-005-Q08",
+    "document_id": "NT-005",
+    "question": "Rencana apa yang perlu disusun untuk memperjelas tanggung jawab sebelum dan sesudah serah terima?",
+    "expected_answer": "Perlu disusun action plan yang memperjelas pembagian tanggung jawab sebelum dan sesudah serah terima.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Bkn juga jadi jelas tanggung jawabnya pembagian tanggungan jawapannya itu sebelum setelah pacsa serah terima itu dan yang kedua jika nantinya serah terima itu telah dilakukan.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:15:02",
+    "coverage_time_end": "01:15:40"
+  },
+  {
+    "id": "NT-005-Q09",
+    "document_id": "NT-005",
+    "question": "Hal apa yang perlu ditetapkan mengenai transisi, pendampingan, dan penanggung jawab dukungan manajemen setelah serah terima?",
+    "expected_answer": "Perlu disepakati apakah ada masa transisi dan pendampingan setelah serah terima, serta pihak yang bertanggung jawab atas dukungan manajemen aplikasi.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Ada masa transisi, apakah ada pendampingan setelah pasca terima itu terkait dengan aplikasi dashboard ini, kemudian dukungan manajennya gimana, apakah memang akan dilakukan oleh bapenas itu sendiri atau memang sub?",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:15:25",
+    "coverage_time_end": "01:16:10"
+  },
+  {
+    "id": "NT-005-Q10",
+    "document_id": "NT-005",
+    "question": "Platform pelaporan apa yang digunakan BGN, dan fungsi apa yang diharapkan dari pengembangan form kelayakan makanan?",
+    "expected_answer": "BGN menggunakan platform pelaporan SPPG. Form kelayakan makanan diusulkan untuk dikembangkan agar dapat membantu menganalisis daya terima menu dan memantau distribusi MBG.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Penuhnya langsung diberikan ke pihak BGN. Kemudian yang ketiga, sebenarnya untuk pelaporan juga, Pak. Kami di BGN setahu saya ada tawar sker, Pak, ya. Jadi itu sistem pelaporan juga yang dilakukan di SPP.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:15:55",
+    "coverage_time_end": "01:16:55"
+  },
+  {
+    "id": "NT-005-Q11",
+    "document_id": "NT-005",
+    "question": "Bagaimana input menu secara digital dapat digunakan sebagai data terstruktur untuk analisis gizi?",
+    "expected_answer": "Menu yang diinput secara digital dapat menjadi data terstruktur untuk menganalis kandungan gizi makanan dan memeriksa kesesuaiannya dengan standar gizi.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Menganalisis menu sebagai sumber data analitis gizi jadi agenda menu yang diinput secara digital menjadi sumber data terstruktur untuk menganalis kandungan gizi makanan yang disalar.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:05:22",
+    "coverage_time_end": "01:06:05"
+  },
+  {
+    "id": "NT-005-Q12",
+    "document_id": "NT-005",
+    "question": "Bagaimana pencatatan food waste atau makanan tidak habis dilakukan dalam satuan kilo, dan bagaimana data tersebut dianalisis untuk mengidentifikasi menu yang tidak disukai di SPPG?",
+    "expected_answer": "Food waste atau makanan tidak habis dicatat berdasarkan satuan kilo (ditimbang), dan datanya dianalisis untuk mengidentifikasi menu tertentu yang tidak disukai di tingkat SPPG atau wilayah tertentu.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "mengakmodir untuk pencatatan jadi kalau misalkan makanan tidak habis itu dicatat berapakah kilo karena ada sopnya kalau tidak salah itu dikilo atau ditimbang",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:06:45",
+    "coverage_time_end": "01:07:15"
+  },
+  {
+    "id": "NT-005-Q13",
+    "document_id": "NT-005",
+    "question": "Apakah aplikasi yang dipaparkan ditujukan untuk menggantikan sistem SPPG atau untuk keperluan lain?",
+    "expected_answer": "Aplikasi yang dipaparkan bukan untuk menggantikan sistem SPPG sebagai sistem operasional penuh. Aplikasi ditujukan untuk piloting atau sandbox, dan fitur yang dibutuhkan dapat menjadi bahan penyempurnaan sistem SPPG.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Menggantikan atau bukan membangun sistem yang sudah dibangunkan oleh teman-teman sipgn kalau kita telusuri lagi historinya ini dibangun ditah",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:19:42",
+    "coverage_time_end": "01:21:33"
+  },
+  {
+    "id": "NT-005-Q14",
+    "document_id": "NT-005",
+    "question": "Dalam koordinasi teknis serah terima sistem Program Makan Bergizi Gratis antara Bappenas dan BGN pada 15 Juli 2026, mengapa proses serah terima aset aplikasi perlu disepakati?",
+    "expected_answer": "Pengembangan sistem menggunakan APBN BGN sehingga asetnya menjadi aset BGN dan perlu diperhatikan jika ada pemeriksaan.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Bagian sendiri seperti apa karena sedang kami info dari awal tadi bahwa di dalam mou ini untuk pengembangan sistem ini kita menggunakan apbn dari bgn otomatis asetnya kan masuk jadi asset bgn ya kalau ada pemeriksaan.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:21:45",
+    "coverage_time_end": "01:22:00"
+  },
+  {
+    "id": "NT-005-Q15",
+    "document_id": "NT-005",
+    "question": "Apa dua komponen analitika data yang disebut untuk BGN, dan infrastruktur apa yang dibutuhkan untuk menjalankan AI?",
+    "expected_answer": "Dua komponen yang disebut adalah AI dan API untuk data media. Untuk menjalankan AI dibutuhkan mesin khusus atau infrastruktur HPC/GPU.",
+    "expected_source_files": [
+      "koordinasi-teknis-persiapan-serah-terima-hasil-pengembangan--2026-07-15.md"
+    ],
+    "evidence_quote": "Analitika data yang pertama adalah ai dan yang kedua adalah api untuk data-data media sebagaimana yang sama-sama kita ketahui teman-teman dari bgn bahwa untuk.",
+    "evidence_type": "transcript",
+    "coverage_time_start": "01:38:21",
+    "coverage_time_end": "01:38:50"
+  }
+]

@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+reports/*.json
+reports/*.md
+data/bappenas/documents/*
+!data/bappenas/documents/.gitkeep
+data/documents/
+evaluation/results/*
+!evaluation/results/.gitkeep

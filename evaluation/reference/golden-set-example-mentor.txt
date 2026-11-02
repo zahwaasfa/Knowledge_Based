@@ -1,0 +1,72 @@
+GOLDEN_SET = [
+    {
+        "question": "Apa definisi Ekonomi Oranye (Orange Economy) menurut Buitrago & Duque yang dikutip dalam laporan studi Bali?",
+        "expected_answer": "Ekonomi Oranye didefinisikan sebagai semua kegiatan ekonomi yang lahir dari kreativitas, keterampilan, dan bakat individu, yang memiliki potensi menciptakan nilai tambah, lapangan kerja, serta kekayaan melalui pemanfaatan hak kekayaan intelektual.",
+        "expected_source_files": "Dt.01.04_Laporan_Pelaksanaan_Diskusi_dan_Kunjungan_Lapangan_Pendalaman_Konsep_dan_Implementasi_Produktivitas_Lintas_Sektor_dan_Pembangunan_Tematik_Ekonomi_Oranye_di_Provinsi_Bali_2026.pdf",
+    },
+    {
+        "question": "Apa yang dimaksud dengan Rencana Pengamanan Air Minum (RPAM)?",
+        "expected_answer": "RPAM adalah instrumen manajemen pengamanan air minum berbasis analisis dan pengelolaan risiko dari hulu (titik pengambilan air baku) hingga ke hilir (titik layanan konsumen/meter air) untuk menjamin air minum yang disuplai memenuhi standar kualitas dan kesehatan.",
+        "expected_source_files": "Dt.8.5_Peta_Jalan_Perluasan_Penerapan_Rencana_Pengamanan_Air_Minum_2021_-_2025_2025.pdf",
+    },
+    {
+        "question": "Apa yang dimaksud dengan Cultural Capital (Modal Budaya) dalam kerangka Ekonomi Oranye?",
+        "expected_answer": "Cultural capital adalah aset budaya yang terdiri atas aset berwujud (tangible) seperti warisan arsitektur, tekstil tradisional, dan seni pertunjukan, serta aset tak berwujud (intangible) seperti nilai spiritual, kearifan lokal, filosofi hidup, narasi sejarah, dan estetika",
+        "expected_source_files": "Dt.01.04_Laporan_Pelaksanaan_Diskusi_dan_Kunjungan_Lapangan_Pendalaman_Konsep_dan_Implementasi_Produktivitas_Lintas_Sektor_dan_Pembangunan_Tematik_Ekonomi_Oranye_di_Provinsi_Bali_2026.pdf",
+    },
+    {
+        "question": "Apa fungsi utama dari keberadaan Creative Hub menurut laporan studi lapangan di Daerah Istimewa Yogyakarta (DIY)?",
+        "expected_answer": "Creative Hub berfungsi sebagai ruang fisik dan simpul strategis yang mempertemukan berbagai pemangku kepentingan (pentahelix), serta bertindak sebagai katalis pengembangan SDM, inovasi berbasis budaya, inkubasi bisnis, dan perluasan akses pasar",
+        "expected_source_files": "Dt.01.04_Laporan_Pelaksanaan_Diskusi_dan_Kunjungan_Lapangan_Pendalaman_Konsep_dan_Implementasi_Produktivitas_Lintas_Sektor_dan_Pembangunan_Tematik_Ekonomi_Oranye_di_Provinsi_Bali_2026.pdf",
+    },
+    {
+        "question": "Apa tugas pokok Kementerian PPN/Bappenas berdasarkan Perpres Nomor 194 Tahun 2024?",
+        "expected_answer": "Tugas pokok Kementerian PPN/Bappenas adalah menyelenggarakan urusan pemerintahan di bidang perencanaan pembangunan nasional untuk membantu Presiden dalam menyelenggarakan pemerintahan negara.",
+        "expected_source_files": "B.04_Laporan_Kinerja_Kementerian_PPNBappenas_Tahun_2025_2026.pdf",
+    },
+    {
+        "question": "Apa definisi dari Zona Air Minum Prima (ZAMP)?",
+        "expected_answer": "Zona Air Minum Prima (ZAMP) adalah PDAM dengan kawasan layanan tempat seluruh atau sebagian pelanggannya dapat menikmati layanan air kran yang layak dan aman untuk langsung diminum.",
+        "expected_source_files": "Dt.8.5_Peta_Jalan_Perluasan_Penerapan_Rencana_Pengamanan_Air_Minum_2021_-_2025_2025.pdf",
+    },
+    {
+        "question": "Apa yang dimaksud dengan DAK Bidang Infrastruktur Energi Terbarukan (IET) bersifat piloting?",
+        "expected_answer": "DAK Bidang IET bersifat piloting yaitu mekanisme penyaluran Dana Alokasi Khusus fisik yang diuji cobakan untuk pembangunan infrastruktur energi terbarukan (seperti PLTS dan PLTMH Off-grid) guna meningkatkan akses elektrifikasi di daerah afirmasi/tertinggal.",
+        "expected_source_files": "Dt.7.4_Laporan_Akhir_Kegiatan_DAK_IET_2024_2025.pdf",
+    },
+    {
+        "question": "Berapa realisasi anggaran dan persentase capaian DAK Bidang IET Tahun Anggaran 2023?",
+        "expected_answer": "Realisasi anggaran DAK Bidang IET TA 2023 mencapai Rp 87,072 miliar dari total pagu sebesar Rp 88 miliar, atau setara dengan 98,95 persen.",
+        "expected_source_files": "Dt.7.4_Laporan_Akhir_Kegiatan_DAK_IET_2024_2025.pdf",
+    },
+    {
+        "question": "Berapa kapasitas terpasang PLTS dan jumlah rumah tangga yang berhasil terlistriki dari hasil evaluasi DAK IET TA 2023 per Desember 2023?",
+        "expected_answer": "Total kapasitas terpasang yang terbangun mencapai 650 kWp (dari target 685 kWp) pada 21 unit PLTS Terpusat Off-grid, dengan jumlah rumah tangga terlistriki sebanyak 1.176 RT (dari target 1.564 RT).",
+        "expected_source_files": "Dt.7.4_Laporan_Akhir_Kegiatan_DAK_IET_2024_2025.pdf",
+    },
+    {
+        "question": "Berapa total komposisi Aparatur Sipil Negara (ASN) di Kementerian PPN/Bappenas pada tahun 2025 berdasarkan status PNS, CPNS, dan PPPK?",
+        "expected_answer": "Total ASN berjumlah 2.586 orang, yang terdiri dari 732 orang PNS, 685 orang CPNS, dan 1.169 orang PPPK.",
+        "expected_source_files": "B.04_Laporan_Kinerja_Kementerian_PPNBappenas_Tahun_2025_2026.pdf",
+    },
+    {
+        "question": "Berapa alokasi subsidi listrik untuk pelanggan golongan R1 / 450 VA dalam rencana anggaran Pemerintah tahun 2025?",
+        "expected_answer": "Alokasi subsidi listrik untuk golongan R1 / 450 VA dalam rencana anggaran Pemerintah tahun 2025 adalah sebesar Rp49,16 triliun -- mencakup 24,94 juta konsumen dengan konsumsi listrik 27,04 TWh, dan merupakan alokasi terbesar dari total subsidi listrik Rp88,3 triliun.",
+        "expected_source_files": "Dt.8.3_Pembaharuan_Subsidi_Listrik_untuk_Mencapai_Ketahanan_Energi_dan_Target_Ekonomi_Hijau_Indonesia_2025.pdf",
+    },
+    {
+        "question": "Berapa total beban subsidi listrik pemerintah Indonesia pada tahun 2012 sebelum dimulainya reformasi subsidi?",
+        "expected_answer": "Beban subsidi listrik pada tahun 2012 mencapai Rp 103,3 triliun, yang setara dengan 6 persen dari total anggaran belanja negara.",
+        "expected_source_files": "Dt.8.3_Pembaharuan_Subsidi_Listrik_untuk_Mencapai_Ketahanan_Energi_dan_Target_Ekonomi_Hijau_Indonesia_2025.pdf",
+    },
+    {
+        "question": "Berapa jumlah penyesuaian target kabupaten/kota yang ditargetkan memiliki dokumen RPAM hingga tahun 2025 dalam Peta Jalan RPAM?",
+        "expected_answer": "Target disesuaikan menjadi 280 kabupaten/kota pada tahun 2025, atau setara dengan 55 persen dari target awal RPJMN.",
+        "expected_source_files": "Dt.8.5_Peta_Jalan_Perluasan_Penerapan_Rencana_Pengamanan_Air_Minum_2021_-_2025_2025.pdf",
+    },
+    {
+        "question": "Berapa persen rasio elektrifikasi nasional dan rasio desa berlistrik nasional yang telah dicapai hingga tahun 2022?",
+        "expected_answer": "Rasio elektrifikasi nasional mencapai 99,6 persen dan rasio desa berlistrik nasional mencapai 99,7 persen.",
+        "expected_source_files": "Dt.7.4_Laporan_Akhir_Kegiatan_DAK_IET_2024_2025.pdf",
+    },
+]
